@@ -1,0 +1,21 @@
+{
+  "name": "mpp-wa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "pm2": "pm2 start ecosystem.config.js",
+    "pm2_delete": "pm2 delete index.js",
+    "pm2_monit": "pm2 monit",
+    "pm2_ls": "pm2 ls",
+    "pm2_link": "pm2 link 344506b81mg7o1l 5wsflq2u8od8bo6"
+  },
+  "repository": "https://gitlab.doenv.ru/mpp-wd/mpp-wa.git",
+  "author": "Сычевский Илья Сергеевич <1fogfrog1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.5",
+    "pm2": "^5.4.1",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
